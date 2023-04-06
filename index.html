@@ -2,1199 +2,321 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+<title>
+Przemysław Pawełczak's Personal Webpage
+</title>
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/lit_adapted.css">
+
 </head>
 
-<body>
 
-  <!--
-    - #MAIN
-  -->
+<body class="c">
 
-  <main>
+<div class="2 col card">
+<img id="face_image" src="images/przemyslaw_pawelczak.jpeg">
+</div>
 
-    <!--
-      - #SIDEBAR
-    -->
+<div class="2 col card">
+<h1 class="add_margin_bottom_negative">Przemysław Pawełczak</h1>
+<h3 class="add_margin_bottom_positive">Associate Professor </h3>
 
-    <aside class="sidebar" data-sidebar>
+<h4><a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/embedded-and-networked-systems/" target="_blank">Embedded Systems Group</a></h4>
+<h4 class="add_margin_bottom_positive"><a href="https://www.tudelft.nl/" target="_blank">TU Delft</a></h4>
 
-      <div class="sidebar-info">
+<h5 class="add_margin_bottom_negative"><a href="https://iamap.tudelft.nl/en/poi/mathematics-computer-science-eemcs/" target="_blank">Building 28, Room 2.W.680</a></h5>
+<h5 class="add_margin_top_negative add_margin_bottom_negative">Van Mourik Broekmanweg 6, 2628XE Delft</h5>
+<h5 class="add_margin_bottom_positive">The Netherlands, European Union</h5>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
+<h6 class="add_margin_bottom_positive"><a href="mailto:p.pawelczak@tudelft.nl">p.pawelczak@tudelft.nl</a> &nbsp; <a href="tel:+31614238042">+31 614 238 042</a></h6>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+<a href="https://twitter.com/przemyslawp" target="_blank"><img src="images/twitter.png" alt="Twitter Account" class="image_small_size"></a>
+<a href="https://www.linkedin.com/in/przemyslawpawelczak/" target="_blank"><img src="images/linked_in.png" alt="LinkedIn Account" class="image_small_size"></a>
+<a href="https://github.com/przemyslaw-pawelczak" target="_blank"><img src="images/github.png" alt="Github Account" class="image_small_size"></a>
+<a href="https://scholar.google.com/citations?user=NzykFrsAAAAJ&hl=en" target="_blank"><img src="images/google_scholar.png" alt="Google Scholar Account" class="image_small_size"></a>
 
-          <p class="title">Web developer</p>
-        </div>
+</div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+<div class="row card">
+<div class="col"><a href="#section_publications"><h4 class="btn_menu">Publications</h4></a></div>
+<div class="col"><a href="#section_grants"><h4 class="btn_menu">Grants</h4></a></div>
+<div class="col"><a href="#section_students"><h4 class="btn_menu">Students</h4></a></div>
+<div class="col"><a href="#section_teaching"><h4 class="btn_menu">Teaching</h4></a></div>
+<div class="col"><a href="#section_career"><h4 class="btn_menu">Career</h4></a></div>
+<div class="col"><a href="#section_service"><h4 class="btn_menu">Service</h4></a></div>
+</div>
 
-      </div>
 
-      <div class="sidebar-info_more">
+<div class="card">
 
-        <div class="separator"></div>
+<p>I am an associate professor within the <a class="text_bold" href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/embedded-and-networked-systems/" target="_blank">Embedded and Networked Systems Group</a> of <a href="https://www.tudelft.nl/" target="_blank">TU Delft, The Netherlands,</a> leading <a class="text_bold" href="https://github.com/tudssl/" target="_blank">Sustainable Systems Lab</a>.</p>
 
-        <ul class="contacts-list">
+<p>My research vision is to make Internet of Things <span class="text_bold">free from batteries</span>, <span class="text_bold">less polluting</span> and <span class="text_bold">sustainable</span>. With my students I do research that is experiment- and systems-oriented (where <span class="text_italic">system</span> is a creation of new hardware and software). Until the start of my tenure track at TU Delft in 2013 I researched performance of <a class="text_italic" href="https://en.wikipedia.org/wiki/Cognitive_radio" target="_blank">Cognitive Radio</a> systems.</p>
 
-          <li class="contact-item">
+<p>I have obtained my MSc (<span class="text_italic">magister inżynier</span>) degree from <a class="text_bold" href="https://pwr.edu.pl/en/" target="_blank">Wrocław University of Science and Technology, Poland</a>, in October 2004, and my PhD degree from <a class="text_bold" href="https://www.tudelft.nl/" target="_blank">TU Delft, The Netherlands</a> in April 2009 (I was promoted by professor <a href="https://www.linkedin.com/in/ignas-niemegeers-09559715/" target="_blank">Ignas Niemegeers</a> based on a thesis titled <a class="text_italic" href="https://repository.tudelft.nl/islandora/object/uuid:7f7b27b2-a2f9-4366-9bda-8e722d12b188" target="_blank">Opportunistic Spectrum Access: Designing Link and Transport Layer</a>).</p> 
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+<p>In 2011 I completed my postdoctoral training at <a class="text_bold" href="https://www.ucla.edu/" target="_blank">UCLA's</a> <a href="https://cores.ee.ucla.edu/" target="_blank">Cognitive Reconfigurable Embedded Systems Lab, USA</a>, under the mentorship of professor <a href="https://www.ee.ucla.edu/danijela-cabric/" target="_blank">Danijela Čabrić</a>. Between 2011 and 2012 I worked as a research scientist at <a class="text_bold" href="https://www.hhi.fraunhofer.de/en/index.html" target="_blank">Fraunhofer Heinrich Hertz Institute, Germany</a>, under the supervision of professor <a href="https://www.netit.tu-berlin.de/menue/team/prof_dr_ing_slawomir_stanczak/" target="_blank">Sławomir Stańczak</a>.</p>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+<p>Project-wise I am involved in <a href="https://www.nwo.nl/en" target="_blank">Dutch Research Council's</a> <a class="text_bold" href="https://www.nwo.nl/en/researchprogrammes/perspectief/previous-awards/zero-towards-energy-autonomous-systems-iot" target="_blank">ZERO</a> project targeting energy-autonomous Internet of Things. I was also exploring new research avenues through my involvement in European Union's <a href="https://qt.eu/about-quantum-flagship/introduction-to-the-quantum-flagship/" target="_blank">Quantum Flagship</a> project on <a class="text_bold" href="https://quantum-internet.team/team/" target="_blank">Quantum Internet</a>.</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
-            </div>
+<p class="add_margin_bottom_positive">I was a recipient of <a href="https://www.nwo.nl/en" target="_blank">Dutch Research Council's</a> <a href="https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme" target="_blank">Veni</a> <a class="link_emphasize" href="https://www.narcis.nl/research/RecordID/OND1348915/Language/en" target="_blank">2012 grant</a> and I am happily married with a <a href="http://polskidentysta.nl" target="_blank">dentist.</a></p>
 
-          </li>
+<p><a class="btn_link_1" href="/cv/CV_Przemyslaw_Pawelczak_14_November_2022.pdf" target="_blank">Full CV (version: November 14, 2022)</a></p>
 
-          <li class="contact-item">
+</div>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+<div class="card" id="section_publications">
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
-            </div>
+<h3>Publications</h3>
 
-          </li>
+An up-to-date list of all my publications can be found on my <a href="https://scholar.google.com/citations?user=NzykFrsAAAAJ&hl=en" target="_blank">Google Scholar profile</a>. Below is the list of recent most representative publications.
 
-          <li class="contact-item">
+<ul>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+<li>Jasper de Winkel, Tom Hoefnagel, Boris Blokland, Przemysław Pawełczak, <a class="text_italic" href="https://doi.org/10.1145/3560905.3568543" target="">DIPS: Debug Intermittently-Powered Systems Like Any Embedded System</a>, Proc. <a class="text_bold" href="http://sensys.acm.org/2022/" target="_blank">ACM SenSys 2022</a></li>
+  
+<ul>
+<li><a class="btn_link_2" href="https://github.com/tudssl/dips" target="_blank">Source code</a></li>
+</ul>
 
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+<li>Abu Bakar, Rishabh Goel, Jasper de Winkel, Jason Huang, Saad Ahmed, Bashima Islam, Przemysław Pawełczak, Kasım Sinan Yıldırım, Josiah Hester,  <a class="text_italic" href="https://doi.org/10.1145/3560905.3568561" target="">Protean: An Energy-Efficient and Heterogeneous Platform for Adaptive and Hardware-Accelerated Battery-free Computing</a>, Proc. <a class="text_bold" href="http://sensys.acm.org/2022/" target="_blank">ACM SenSys 2022</a></li>
+  
+<ul>
+<li><a class="btn_link_2" href="https://protean.systems" target="_blank">Project website (with links to source code)</a></li>
+</ul>
+  
+<li>Jasper de Winkel, Haozhe Tang, Przemysław Pawełczak, <a class="text_italic" href="https://dl.acm.org/doi/10.1145/3498361.3538934" target="">Intermittently-Powered Bluetooth that Works</a>, Proc. <a class="text_bold" href="https://www.sigmobile.org/mobisys/2022/" target="_blank">ACM MobiSys 2022</a></li>
 
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
+<ul>
+<li><a class="btn_link_2" href="https://github.com/tudssl/freebie" target="_blank">Source code</a> | <a class="btn_link_2" href="https://zenodo.org/record/6583725" target="_blank">Article artifact</a> | <a class="btn_link_2" href="https://www.youtube.com/watch?v=DakbbSbdX_s">ACM MobiSys 2022 video pitch</a></li>
+  
+<li>Media coverage: <a class="text_italic" href="https://bits-chips.nl/artikel/delft-researchers-develop-bluetooth-that-doesnt-mind-a-power-outage/" target="_blank">Bits & Chips</a></li>
+</ul>
+  
+<li>Vito Kortbeek, Souradip Ghosh, Josiah Hester, Simone Campanoni, Przemysław Pawełczak, <a class="text_italic" href="https://dl.acm.org/doi/abs/10.1145/3519939.3523454" target="_blank">WARio: Efficient Code Generation for Intermittent Computing</a>, Proc. <a class="text_bold" href="https://pldi22.sigplan.org/" target="_blank">ACM PLDI 2022</a></li>
 
-          </li>
+<ul>
+<li><a class="btn_link_2" href="https://github.com/tudssl/wario" target="_blank">Source code</a> | <a class="btn_link_2" href="https://zenodo.org/record/6413018" target="_blank">Article artifact</a></li>
+</ul>
+  
+<li>Vito Kortbeek, Abu Bakar, Stefany Cruz, Kasım Sinan Yıldırım, Przemysław Pawełczak, Josiah Hester, <a class="text_italic" href="https://dl.acm.org/doi/abs/10.1145/3432191" target="_blank">BFree: Enabling Battery-Free Sensor Prototyping with Python</a>, Proc. <a class="text_bold" href="https://dl.acm.org/toc/imwut/2020/4/4" target="_blank">ACM Interact. Mob. Wearable Ubiquitous Technol. Volume 4, Issue 4, December 2020</a> and <a class="text_bold" href="https://www.ubicomp.org/ubicomp2021/" target="_blank">ACM UbiComp 2021</a></li>
 
-          <li class="contact-item">
+<ul>
+<li><a class="btn_link_2" href="https://github.com/tudssl/bfree" target="_blank">Source code</a></li>
+  
+<li>Media coverage: <a class="text_italic" href="https://hackaday.com/2021/09/29/bfree-brings-intermittent-computing-to-python">Hackaday</a></li>
+</ul>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+<li>Jasper de Winkel, Vito Kortbeek, Josiah Hester, Przemysław Pawełczak, <a class="text_italic" href="https://dl.acm.org/doi/abs/10.1145/3411839" target="_blank">Battery-Free Game Boy</a>, Proc. <a class="text_bold" href="https://dl.acm.org/toc/imwut/2020/4/3" target="_blank">ACM Interact. Mob. Wearable Ubiquitous Technol. Volume 4, Issue 3, September 2020</a> and <a class="text_bold" href="https://www.ubicomp.org/ubicomp2020/" target="_blank">ACM UbiComp 2020</a></li>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
+<ul>
+<li>
+<a class="btn_link_2" href="https://github.com/tudssl/engage" target="_blank">Source code</a> | <a class="btn_link_2" href="https://www.youtube.com/watch?v=XxjrTHBFBSM" target="_blank">ACM UbiComp 2020 presentation</a> | <a class="btn_link_2" href="https://www.youtube.com/watch?v=5VzDyvwfEZA" target="_blank">ACM UbiComp 2020 video pitch</a></li>
+<li>Media coverage (selected): 
+<a class="text_italic" href="https://www.cnet.com/features/the-first-battery-free-game-boy-wants-to-power-a-gaming-revolution/" target="_blank">CNET</a>, 
+<a class="text_italic" href="https://www.wsj.com/articles/battery-free-energy-harvesting-perpetual-machines-the-weird-future-of-computing-11601697600?st=xyjz99iomamhwr6&reflink=article_copyURL_share" target="_blank">Wall Street Journal</a>,
+<a class="text_italic" href="https://mashable.com/video/battery-free-gameboy/" target="_blank">Mashable</a>, 
+<a class="text_italic" href="https://hackaday.com/2020/09/11/game-boy-plays-forever/" target="_blank">Hackaday</a>, 
+<a class="text_italic" href="https://www.theverge.com/tldr/2020/9/4/21422605/engage-battery-free-game-boy-button-mashing-solar-panels-research-environmental-sustainability" target="_blank">The Verge</a>, 
+<a class="text_italic" href="https://earther.gizmodo.com/this-battery-free-game-boy-is-the-first-step-toward-ens-1844953062" target="_blank">Gizmodo</a>, 
+<a class="text_italic" href="https://www.engadget.com/engage-game-boy-211023869.html" target="_blank">Engadget</a>, 
+<a class="text_italic" href="https://www.pcmag.com/news/solar-powered-game-boy-provides-infinite-play" target="_blank">PCMag</a>, 
+<a class="text_italic" href="https://www.theregister.com/2020/09/04/battery_free_gameboy/" target="_blank">The Register</a>, 
+<a class="text_italic" href="https://www.techtimes.com/articles/252268/20200903/game-boy-gaming-console-battery-free-play-want-without-recharging.htm" target="_blank">Tech Times</a>, 
+<a class="text_italic" href="https://www.nintendolife.com/news/2020/09/this_battery-free_game_boy_could_be_the_future_of_portable_tech" target="_blank">Nintendo Life</a>, 
+<a class="text_italic" href="https://www.dailymail.co.uk/sciencetech/article-8695791/Battery-free-Game-Boy-charged-MILLIONS-times-sun-pressing-buttons.html" target="_blank">Daily Mail</a>, 
+<a class="text_italic" href="https://www.independent.co.uk/life-style/gadgets-and-tech/news/game-boy-battery-free-technology-renewable-power-a9705256.html" target="_blank">The Independent</a>,
+<a class="text_italic" href="https://www.reddit.com/r/gadgets/comments/in3aco/batteryfree_game_boy_runs_off_of_solar_and/" target="_blank">r/gadgets</a>
+</li>
+</ul>
 
-              <address>Sacramento, California, USA</address>
-            </div>
+<li>Jasper de Winkel, Carlo Delle Donne, Kasım Sinan Yıldırım, Przemys Pawełczak, Josiah Hester, <a class="text_italic" href="https://dl.acm.org/doi/10.1145/3373376.3378464" target="_blank">Reliable Timekeeping for Intermittent Computing</a>, Proc. <a class="text_bold" href="https://asplos-conference.org/2020/" target="_blank">ACM ASPLOS 2020</a></li>
 
-          </li>
+<ul>
+<li> <a class="btn_link_2" href="https://github.com/tudssl/botoks" target="_blank">Source code</a> | <a class="btn_link_2" href="https://www.zenodo.org/record/3612620" target="_blank">Article artifact</a> | <a class="btn_link_2" href="https://www.youtube.com/watch?v=sOCKZ8zDV14" target="_blank">ACM ASPLOS 2020 presentation</a>
+<li>Media coverage: <a class="text_italic" href="https://bits-chips.nl/artikel/getting-rid-of-the-backup-battery-in-autonomous-iot-devices/" target="_blank">Bits & Chips</a>, <a class="text_italic" href="https://phys.org/news/2020-05-battery-free-devices-short-term-memory-loss.html" target="_blank">Phys.org</a>
+</ul>
 
-        </ul>
+<li>Vito Kortbeek, Kasım Sinan Yıldırım, Abu Bakar, Jacob Sorber, Josiah Hester, Przemysław Pawełczak, <a class="text_italic" href="https://dl.acm.org/doi/10.1145/3373376.3378476" target="_blank">Time-Sensitive Intermittent Computing Meets Legacy Software</a>, Proc. <a class="text_bold" href="https://asplos-conference.org/2020/" target="_blank">ACM ASPLOS 2020</a></li>
 
-        <div class="separator"></div>
+<ul>
+<li><a class="btn_link_2" href="https://github.com/tudssl/tics" target="_blank">Source code</a> | <a class="btn_link_2" href="https://zenodo.org/record/3563082" target="_blank">Article artifact</a> | <a class="btn_link_2" href="https://www.youtube.com/watch?v=mxOGDBHs0YE" target="_blank">ACM ASPLOS 2020 presentation</a>
+</ul>
 
-        <ul class="social-list">
+<li>Axel Dahlberg, Matthew Skrzypczyk, Tim Coopmans, Leon Wubben, Filip Rozpędek, Matteo Pompili, Arian Stolk, Przemysław Pawełczak, Robert Knegjens, Julio De Oliveira Filho, Ronald Hanson, Stephanie Wehner, <a class="text_italic" href="https://dl.acm.org/doi/10.1145/3341302.3342070" target="_blank">A Link Layer Protocol for Quantum Networks</a>, Proc. <a class="text_bold" href="https://conferences.sigcomm.org/sigcomm/2019/" target="_blank">ACM SIGCOMM 2019</a></li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
+<li>Kasım Sinan Yıldırım, Amjad Yousef Majid, Dimitris Patoukas, Koen Schaper, Przemysław Pawełczak, Josiah Hester, <a class="text_italic" href="https://dl.acm.org/doi/abs/10.1145/3274783.3274837" target="_blank">InK: Reactive Kernel for Tiny Batteryless Sensors</a>, Proc. <a class="text_bold" href="http://sensys.acm.org/2018/" target="_blank">ACM SenSys 2018</a></li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
+<ul>
+<li><a class="btn_link_2" href="https://github.com/tudssl/ink" target="_blank">Source code</a>
+</ul>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+<li>Jethro Tan, Przemysław Pawełczak, Aaron Parks, Joshua R. Smith, <a class="text_italic" href="https://ieeexplore.ieee.org/abstract/document/7524574" target="_blank">Wisent: Robust Downstream Communication and Storage for Computational RFIDs</a>, Proc. <a class="text_bold" href="https://infocom2016.ieee-infocom.org/" target="_blank">IEEE INFOCOM 2016</a></li>
 
-        </ul>
+<ul>
+<li><a class="btn_link_2" href="https://github.com/tudssl/wisent" target="_blank">Source code</a>
+<li>Media coverage (selected): 
+<a class="text_italic" href="https://www.fastcompany.com/3059141/this-battery-free-computer-sucks-power-out-of-thin-air?" target="_blank">FastCompany</a>,
+<a class="text_italic" href="https://hardware.slashdot.org/story/16/04/23/2345206/this-battery-free-computer-sucks-power-out-of-thin-air" target="_blank">SlashDot</a>,  
+<a class="text_italic" href="https://www.theverge.com/2016/4/25/11505412/wisent-protocol-battery-free-computers-reprogrammable" target="_blank">The Verge</a>,
+<a class="text_italic" href="https://qz.com/657458/we-need-battery-free-wireless-computers-to-power-the-internet-of-things-now-we-have-one/" target="_blank">Quartz</a>
+</li>
+</ul>
 
-      </div>
+</ul>
 
-    </aside>
+</div>
 
 
+<div class="card" id="section_grants">
 
+<h3>Major Research Grants</h3>
 
+The list below summarizes the most important past and current research grants I am involved in. 
 
-    <!--
-      - #main-content
-    -->
+<ul>
+<li><a href="https://www.nwo.nl/en/researchprogrammes/perspectief/previous-awards/zero-towards-energy-autonomous-systems-iot" target="_blank">Towards Energy Autonomous Systems for IoT</a> <a class="btn_link_2" href="https://www.nwo.nl/en/researchprogrammes/perspectief" target="_blank">Perspectief</a> <span class="btn">NL</span> <span class="hfill">2016–Now</span></li>
+ <li> <a href="https://quantum-internet.team/" target="_blank"> Quantum Internet Alliance</a> <a class="btn_link_2" href="https://qt.eu/about-quantum-flagship/introduction-to-the-quantum-flagship/" target="_blank">Quantum Flagship</a> <span class="btn">EU</span> <span class="hfill"> 2019–2022</span></li>
+<li><a href="https://enlightem.eu/" target="_blank">Low-Energy Visible Light IoT Systems</a> <a class="btn_link_2" href="https://ec.europa.eu/research/mariecurieactions/actions/get-funding/innovative-training-networks_en" target="_blank"> European Training Network</a> <span class="btn">EU</span> <span class="hfill">2019–2021</span></li>
+<li><a href="https://www.narcis.nl/research/RecordID/OND1348915/Language/en" target="_blank">Veni</a> <a class="btn_link_2" href="https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme" target="_blank">Talent</a> <span class="btn">NL</span> <span class="hfill">2013–2016</span></li>
+</ul>
 
-    <div class="main-content">
+</div>
 
-      <!--
-        - #NAVBAR
-      -->
 
-      <nav class="navbar">
+<div class="card" id="section_students">
 
-        <ul class="navbar-list">
+<h3>Postdocs and PhD Students Supervision</h3>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+The list below summarizes past and current supervised students since I joined <a href="https://www.tudelft.nl/" target="_blank">TU Delft</a> in 2013.
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+<h4 class="add_margin_top_positive">Current PhD students</h4>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+<ul>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
+<li><a class="text_bold" href="https://jamesbroadhead.com" target="_blank">James Scott Broadhead</a> <span class="hfill"> 2019–Now</span></li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
+<li><a class="text_bold" href="http://jasperdewinkel.com/" target="_blank">Jasper de Winkel</a> <span class="btn_transparent">Cosupervisor: <a href="https://www.st.ewi.tudelft.nl/koen/" target="_blank">Koen Langendoen</a></span> <span class="hfill"> 2019–Now</span> </li>
 
-        </ul>
+<li><a class="text_bold" href="https://cdelledonne.eu/">Carlo Delle Donne</a> <span class="btn_transparent">Cosupervisor: <a href="https://qutech.nl/person/stephanie-wehner-roadmap/" target="_blank">Stephanie Wehner</a></span> <span class="hfill"> 2019–Now</span></li>
 
-      </nav>
+<li><a class="text_bold" href="https://www.vitokortbeek.com" target="_blank">Vito Kortbeek</a> <span class="btn_transparent">Cosupervisor: <a href="https://www.st.ewi.tudelft.nl/koen/" target="_blank">Koen Langendoen</a></span> <span class="hfill"> 2018–Now</span></li>
 
+</ul>
 
+<h4 class="add_margin_top_positive">Graduated PhD students</h4>
 
+<ul>
 
+<li><a class="text_bold" href="https://coenvl.nl/" target="_blank">Coen van Leeuwen</a> <span class="btn_transparent">Now: Research Scientist, <a href="https://www.tno.nl" target="_blank">TNO</a></span> <span class="hfill"> 2013–2021</span></li>
+  
+<li><a class="text_bold" href="https://amjadmajid.github.io/" target="_blank">Amjad Yousef Majid</a> <span class="btn_transparent">Now: Postdoc, <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/embedded-and-networked-systems/" target="_blank">TU Delft</a></span> <span class="hfill">2016–2020</span>
+<li><a class="text_bold" href="https://qingzhiliu.com" target="_blank">Qingzhi Liu</a> <span class="btn_transparent">Now: Lecturer, <a href="https://www.wur.nl/en.htm" target="_blank">Wageningen University</a></span> <span class="hfill">2013–2016</span></li>
 
-      <!--
-        - #ABOUT
-      -->
+</ul>
 
-      <article class="about  active" data-page="about">
+<h4 class="add_margin_top_positive">Supervised Postdocs</h4>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+<ul>
 
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
+<li><a class="text_bold" href="https://www.linkedin.com/in/yuxiao-hou/" target="_blank">Yuxiao Hou</a> <span class="hfill">2018–2019</span></li>
+<li><a class="text_bold" href="https://sinanyil81.github.io/" target="_blank">Kasım Sinan Yıldırım</a> <span class="btn_transparent">Now: Assistant Professor, <a href="https://www.unitn.it/en">University of Trento</a></span> <span class="hfill">2015–2017</span></li>
 
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
+</ul>
 
+</ul>
 
-        <!--
-          - service
-        -->
+</p>
 
-        <section class="service">
+</div>
 
-          <h3 class="h3 service-title">What i'm doing</h3>
 
-          <ul class="service-list">
+<div class="card" id="section_teaching">
 
-            <li class="service-item">
+<h3>Current Teaching Activities</h3>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
+I am involved in the following courses at <a href="https://www.tudelft.nl/" target="_blank">TU Delft</a>.
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+<ul>
+<li><a class="text_bold" href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=61719" target="_blank">Fundamentals of Wireless Communications [ET4358]</a> <span class="btn">MSc course</span> <span class="hfill">2015–Now</span></li>
+<li><a class="text_bold" href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=63227" target="_blank">Wireless IoT and Local Area Networks [CESE4060]</a> <span class="btn">MSc course</span> <span class="hfill">2014–Now</span> </li>
+<li> <a class="text_bold" href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=61476" target="_blank">Mentorship [CSE1000]</a> <span class="btn_transparent">Academic Coordinator</span> <span class="btn">BSc course</span> <span class="hfill">2014–Now</span></li>
+</ul>
 
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
+</div>
 
-            </li>
 
-            <li class="service-item">
+<div class="card" id="section_career">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+<h3>Academic Career and Education</h3>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+<h4 class="add_margin_top_positive">Academic Career</h4>
 
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
+<ul>
+<li><span class="text_bold">Assistant Professor (with tenure):</span> <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/embedded-and-networked-systems/" target="_blank">Embedded and Networked Systems Group</a>, <a class="text_bold" href="https://www.tudelft.nl/" target="_blank">TU Delft, The Netherlands</a> <span class="hfill">2013–2021</span></li>
 
-            </li>
+<li><span class="text_bold">Research Scientist:</span> <a class="text_bold" href="https://www.hhi.fraunhofer.de/en/index.html" target="_blank">Fraunhofer Heinrich Hertz Institute, Germany</a> <span class="btn_transparent">Supervisor: <a href="https://www.netit.tu-berlin.de/menue/team/prof_dr_ing_slawomir_stanczak/" target="_blank">Sławomir Stańczak</a></span> <span class="hfill">2011–2013</span></li>
 
-            <li class="service-item">
+<li><span class="text_bold"> Postdoc:</span> <a href="https://cores.ee.ucla.edu/" target="_blank">Cognitive Reconfigurable Embedded Systems Lab</a>, <a class="text_bold" href="https://www.ucla.edu/" target="_blank">UCLA, USA</a></h5> <span class="btn_transparent">Mentor: <a href="https://www.ee.ucla.edu/danijela-cabric/" target="_blank">Danijela Čabrić</a></span> <span class="hfill">2019–2011</span></li>
+</ul>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
+<h4 class="add_margin_top_positive">Education</h4>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+<ul>
+<li><span class="text_bold">PhD:</span> <a class="text_bold" href="https://www.tudelft.nl/" target="_blank">TU Delft, The Netherlands</a> <span class="btn_transparent">Promotor: <a href="https://www.linkedin.com/in/ignas-niemegeers-09559715/" target="_blank">Ignas Niemegeers</a></span> <span class="hfill">2005–2009</span></li>
 
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
+<ul>
+<li>Thesis: <a class="text_italic" href="https://repository.tudelft.nl/islandora/object/uuid:7f7b27b2-a2f9-4366-9bda-8e722d12b188" target="_blank">Opportunistic Spectrum Access: Designing Link and Transport Layer</a></li>
+</ul>
 
-            </li>
+<li><span class="text_bold"> MSc:</span> <a class="text_bold" href="https://pwr.edu.pl/en/" target="_blank">Wrocław University of Science and Technology, Poland</a> <span class="hfill">1999–2004</span></li>
+</ul>
 
-            <li class="service-item">
+</div>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+<div class="card" id="section_service">
 
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
+<h3>Recent Academic Service</h3>
 
-            </li>
+<ul>
 
-          </ul>
+<li><span class="text_bold">Editor:</span> <a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=5962382" target="_blank">IEEE Wireless Communications Letters</a>  <span class="btn">2019 Distinguished Editor</span> <span class="hfill">2018–2021</span></li>
+<li><span class="text_bold">Steering Committee:</span> <a href="http://www.enssys.org" target="_blank">Energy Harvesting and Energy-Neutral Sensing Systems</a><span class="hfill">2017–Now</span></li>
+<li><span class="text_bold">Technical Program Committee (selected):</span>
 
-        </section>
+<ul>
+<li><a href="https://www.sigmobile.org/mobisys/2023/" target="_blank">ACM MobiSys</a> <span class="hfill">2023</span></li>
+<li><a href="https://asplos-conference.org/2023" target="_blank">ACM ASPLOS</a> <span class="hfill">2023</span></li>
+<li><a href="https://infocom2023.ieee-infocom.org" target="_blank">IEEE INFOCOM</a> <span class="btn">2019, 2020 Distinguished Committee Member</span> <span class="hfill">2016–Now</span></li>
+<li><a href="https://conferences.computer.org/iotDI/2022/index.html" target="_blank">ACM/IEEE IoTDI</a> <span class="hfill">2021, 2022</span></li>
+<li><a href="http://sensys.acm.org/2022/" target="_blank">ACM SenSys</a> <span class="hfill">2020–Now</span></li>
+</ul>
 
+<li><span class="text_bold">External Reviewer (selected):</span>
 
-        <!--
-          - testimonials
-        -->
+<ul>
+<li><span class="text_bold">Conferences:</span> <a href="https://chi2020.acm.org/" target="_blank">ACM CHI</a>, <a href="https://uist.acm.org/uist2020/" target="_blank">ACM UIST</a> &nbsp; <span class="text_bold">Journal:</span> <a href="https://dl.acm.org/journal/imwut" target="_blank">ACM IMWUT</a> <span class="hfill">2020</span></li>
+<li><span class="text_bold">Journal:</span> <a href="https://www.computer.org/csdl/magazine/pc" target="_blank">IEEE Pervasive Computing</a> <span class="hfill">2018</span></li>
+</ul>
 
-        <section class="testimonials">
+</ul>
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+</div>
 
-          <ul class="testimonials-list has-scrollbar">
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+<div class="card" id="footer">
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
+<p><span class="text_bold text_footer">Website source:</span> <a class="text_footer" href="https://github.com/przemyslaw-pawelczak/przemyslaw-pawelczak.github.io" target="_blank">przemyslaw-pawelczak.github.io</a> &nbsp; <span class="text_bold text_footer">Last update:</span> <span class="text_footer">February 10, 2023, 22:52 Delft Time</span></p>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<div>
 
 </body>
 
