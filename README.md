@@ -1,5 +1,5 @@
-# Przemysław Pawełczak's personal webpage repository
-
+# Sathwik's personal webpage repository
+This website is based off of https://github.com/przemyslaw-pawelczak/przemyslaw-pawelczak.github.io
 ### Note
 
 Website is build with no reliance on external servers or frameworks. This means that the website has:
@@ -13,3 +13,5 @@ Website is build with no reliance on external servers or frameworks. This means 
 Copyright (C) 2020 TU Przemysław Pawełczak.
 
 MIT Licence or otherwise specified. See [license file](LICENSE) for details.
+
+
